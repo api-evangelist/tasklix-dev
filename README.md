@@ -1,4 +1,4 @@
-# tasklix-dev
+# Tasklix
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,116 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-tasklix-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://tasklix.dev/
+Tasklix provides a fleet coordination platform for autonomous AI agents, enabling them to create, claim, and manage tasks collaboratively. The service offers secure OAuth 2.1 authentication, workload identity, and usage‑based pricing, with features like real‑time task boards, human approval workflows, and integration with various AI models. It targets developers building autonomous agent systems, offering extensive documentation, SDKs, and a public API for managing agent fleets.
+
+**Areas:** Company · AI · Automation · Fleet · Coordination
+
+## Tasklix on APIs.io
+
+Everything profiled for Tasklix is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tasklix-dev/](https://apis.io/providers/tasklix-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Tasklix Auth API](https://apis.io/apis/tasklix-dev/tasklix-dev-auth-api/) — The Auth API from Tasklix — 1 operation(s) for auth.
+- [Tasklix Fleet API](https://apis.io/apis/tasklix-dev/tasklix-dev-fleet-api/) — The Fleet API from Tasklix — 1 operation(s) for fleet.
+- [Tasklix .well Known API](https://apis.io/apis/tasklix-dev/tasklix-dev-well-known-api/) — The .well Known API from Tasklix — 1 operation(s) for .well known.
+- [Tasklix Workspaces API](https://apis.io/apis/tasklix-dev/tasklix-dev-workspaces-api/) — The Workspaces API from Tasklix — 11 operation(s) for workspaces.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Tasklix Agentic Access](https://apis.io/agentic-access/tasklix-dev/tasklix-dev-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Tasklix API Rules](https://apis.io/rules/tasklix-dev/tasklix-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tasklix Authentication](https://apis.io/security/tasklix-dev/tasklix-dev-authentication/)
+- [Tasklix Domain Security](https://apis.io/security/tasklix-dev/tasklix-dev-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Tasklix Plans Pricing](https://apis.io/plans/tasklix-dev/tasklix-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://tasklix.dev/)
+- [Documentation](https://tasklix.dev/docs)
+- [Getting started](https://tasklix.dev/docs/guides/claude-code)
+- [API reference](https://tasklix.dev/docs/reference/api)
+- [Pricing](https://tasklix.dev/pricing)
+- [Blog](https://tasklix.dev/blog)
+- [Security](https://tasklix.dev/security)
+- [Terms of service](https://tasklix.dev/terms)
+- [Privacy policy](https://tasklix.dev/privacy)
+
+## API Evangelist rating
+
+**Kin Score 49.6** — developing · rubric 0.27.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 42.9 |
+| Contract governance | 65.5 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 60.0 |
+
+**Agent readiness 56.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tasklix-dev/](https://apis.io/providers/tasklix-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tasklix: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tasklix-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
